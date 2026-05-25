@@ -1,85 +1,133 @@
-# 🌐 Dasar-Dasar HTML dan CSS
+# Pengumpulan-Tugas-Edutech
 
-![HTML](https://img.shields.io/badge/HTML-Structure-orange?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/CSS-Styling-blue?style=for-the-badge&logo=css3)
-![Status](https://img.shields.io/badge/Status-Selesai-success?style=for-the-badge)
-![Project](https://img.shields.io/badge/Project-Tugas%20Web%20Development-purple?style=for-the-badge)
+Selamat datang di repository pengumpulan tugas **EduTech - UKM Gradien** 🚀
 
----
-
-## 📌 Deskripsi Project
-
-Repository ini berisi tugas praktik **Dasar-Dasar HTML dan CSS**.  
-Project ini dibuat untuk memahami konsep dasar pembuatan halaman web, mulai dari struktur HTML, penggunaan tag, atribut, link, gambar, CSS internal, CSS external, layout halaman, hingga pembuatan form dengan styling.
-
-Melalui tugas ini, saya belajar bagaimana HTML digunakan untuk membangun struktur halaman web, sedangkan CSS digunakan untuk mengatur tampilan agar halaman menjadi lebih menarik, rapi, dan mudah digunakan.
+Repository ini digunakan sebagai tempat pengumpulan tugas dan mini project peserta selama kegiatan EduTech berlangsung.
 
 ---
 
-## 🎯 Tujuan Pembelajaran
+# 📌 Ketentuan Pengumpulan
 
-Tujuan dari project ini adalah:
-
-- Memahami struktur dasar dokumen HTML.
-- Mengenal fungsi tag HTML seperti heading, paragraf, list, link, gambar, dan form.
-- Memahami penggunaan atribut HTML seperti `href`, `src`, `alt`, `id`, dan `class`.
-- Menerapkan CSS untuk mengatur warna, font, margin, padding, border, dan layout.
-- Menggunakan CSS internal dan CSS external.
-- Membuat halaman web sederhana yang terstruktur dan menarik.
+* Setiap peserta wajib mengumpulkan tugas sesuai materi yang telah diberikan.
+* Tugas dikerjakan secara individu.
+* Pastikan struktur file dan penamaan folder sesuai ketentuan.
+* Tidak diperkenankan melakukan plagiarisme.
+* Pengumpulan dilakukan sebelum batas waktu yang ditentukan.
 
 ---
 
-## 🧩 Materi yang Dipraktikkan
+# 📂 Struktur Pengumpulan
 
-Project ini terdiri dari beberapa percobaan, yaitu:
-
-### 1. Struktur Dasar HTML
-Membuat halaman HTML sederhana menggunakan elemen dasar seperti:
-
-- `<!DOCTYPE html>`
-- `<html>`
-- `<head>`
-- `<title>`
-- `<body>`
-- `<h1>` sampai `<h3>`
-- `<p>`
-- `<hr>`
-- `<ul>` dan `<li>`
-
----
-
-### 2. HTML dengan Gambar dan Link
-Membuat halaman portfolio sederhana dengan elemen:
-
-- `<header>`
-- `<nav>`
-- `<main>`
-- `<section>`
-- `<article>`
-- `<img>`
-- `<a>`
-- `<footer>`
-
----
-
-### 3. Pengenalan CSS
-Menerapkan CSS internal untuk mengatur tampilan halaman, seperti:
-
-- Warna teks
-- Background halaman
-- Perataan teks
-- Class selector
-- ID selector
-- Inline CSS
-- Container
-
----
-
-### 4. CSS External dan Layout
-Membuat layout halaman menggunakan file CSS terpisah.
-
-File yang digunakan:
+Setiap peserta wajib membuat folder dengan format:
 
 ```bash
-layout.html
-style.css
+Nama_NPM/
+```
+
+Contoh:
+
+```bash
+Endy_2415061066/
+```
+
+Di dalam folder tersebut, simpan seluruh file tugas sesuai pertemuan.
+
+Contoh struktur:
+
+```bash
+Endy_23123456/
+│
+├── pertemuan1/
+│   ├── index.html
+│   └── style.css
+│
+├── pertemuan2/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+└── README.md
+```
+
+---
+
+# 🚀 Cara Mengumpulkan Tugas
+
+## 1. Fork Repository
+
+Klik tombol **Fork** pada repository ini.
+
+---
+
+## 2. Clone Repository
+
+```bash
+git clone https://github.com/ukmgradien/Pengumpulan-Tugas-Edutech
+```
+
+---
+
+## 3. Tambahkan Folder Tugas
+
+Masukkan folder tugas sesuai format yang telah ditentukan.
+
+---
+
+## 4. Commit Perubahan
+
+```bash
+git add .
+git commit -m "Menambahkan tugas EduTech"
+```
+
+---
+
+## 5. Push Repository
+
+```bash
+git push origin main
+```
+
+---
+
+## 6. Create Pull Request
+
+Buat Pull Request ke repository utama untuk proses pengecekan tugas.
+
+---
+
+# 📌 Penilaian
+
+Penilaian tugas berdasarkan:
+
+* Kerapihan struktur kode
+* Kesesuaian dengan materi
+* Kreativitas desain
+* Implementasi fitur
+* Ketepatan waktu pengumpulan
+
+---
+
+# ⚠️ Catatan
+
+* Gunakan nama folder sesuai format.
+* Pastikan file dapat dijalankan dengan baik.
+* Jika mengalami kendala, silakan hubungi pemateri atau panitia.
+
+---
+
+# 💻 Tools yang Direkomendasikan
+
+* Visual Studio Code
+* Google Chrome
+* Live Server Extension
+* Git & GitHub
+
+---
+
+# ✨ Semangat Belajar!
+
+> “Practice makes progress.” 🚀
+> Gradien, Let's coding for the future
+
+Terima kasih telah berpartisipasi dalam kegiatan EduTech UKM Gradien 🙌
