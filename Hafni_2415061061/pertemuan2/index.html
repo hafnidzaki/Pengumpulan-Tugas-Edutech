@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Hafni</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <h1>Hafni</h1>
+      <div class="nav-links">
+        <a href="#tentang">Tentang</a>
+        <a href="#proyek">Proyek</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="label">Portofolio EduTech</p>
+      <h2>Halo, saya Hafni</h2>
+      <p>
+        Saya sedang belajar membuat website interaktif menggunakan HTML, CSS,
+        dan JavaScript. Portofolio ini berisi beberapa contoh proyek yang dapat
+        difilter berdasarkan kategori.
+      </p>
+      <a class="primary-button" href="#proyek">Lihat Proyek</a>
+    </section>
+  </header>
+
+  <main>
+    <section id="tentang" class="section about-section">
+      <div>
+        <p class="label">Tentang Saya</p>
+        <h2>Belajar teknologi dari dasar hingga praktik.</h2>
+      </div>
+      <p>
+        Saya tertarik pada pengembangan web, jaringan, dan Internet of Things.
+        Melalui EduTech, saya belajar membangun tampilan website yang menarik
+        serta menambahkan interaksi menggunakan JavaScript.
+      </p>
+    </section>
+
+    <section id="proyek" class="section">
+      <div class="section-heading">
+        <p class="label">Karya Saya</p>
+        <h2>Daftar Proyek</h2>
+      </div>
+
+      <div class="filter-buttons" aria-label="Filter kategori proyek">
+        <button class="filter-button active" type="button" data-filter="semua">Semua</button>
+        <button class="filter-button" type="button" data-filter="web">Web Dev</button>
+        <button class="filter-button" type="button" data-filter="iot">Jaringan/IoT</button>
+        <button class="filter-button" type="button" data-filter="desain">Desain</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card" data-category="web">
+          <span>Web Dev</span>
+          <h3>Website Portofolio</h3>
+          <p>Website pribadi responsif untuk menampilkan profil, proyek, dan kontak.</p>
+        </article>
+
+        <article class="project-card" data-category="web">
+          <span>Web Dev</span>
+          <h3>Landing Page EduTech</h3>
+          <p>Halaman informasi kegiatan dengan struktur HTML yang rapi dan tampilan modern.</p>
+        </article>
+
+        <article class="project-card" data-category="iot">
+          <span>Jaringan/IoT</span>
+          <h3>Monitoring Suhu</h3>
+          <p>Konsep alat IoT untuk memantau suhu ruangan menggunakan sensor sederhana.</p>
+        </article>
+
+        <article class="project-card" data-category="iot">
+          <span>Jaringan/IoT</span>
+          <h3>Simulasi Jaringan</h3>
+          <p>Perancangan jaringan kecil untuk memahami koneksi antarperangkat.</p>
+        </article>
+
+        <article class="project-card" data-category="desain">
+          <span>Desain</span>
+          <h3>Poster Digital</h3>
+          <p>Desain poster kegiatan dengan komposisi warna, tipografi, dan layout sederhana.</p>
+        </article>
+
+        <article class="project-card" data-category="desain">
+          <span>Desain</span>
+          <h3>Mockup Aplikasi</h3>
+          <p>Rancangan awal tampilan aplikasi untuk melatih alur pengalaman pengguna.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="kontak" class="section contact-section">
+      <div class="section-heading">
+        <p class="label">Hubungi Saya</p>
+        <h2>Kirim pesan singkat</h2>
+      </div>
+
+      <form id="contactForm" class="contact-form" novalidate>
+        <label for="messageInput">Pesan</label>
+        <input
+          id="messageInput"
+          type="text"
+          placeholder="Tulis pesan untuk saya..."
+          autocomplete="off"
+        >
+        <p id="warningMessage" class="warning-message"></p>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Hafni. Tugas Akhir EduTech.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
